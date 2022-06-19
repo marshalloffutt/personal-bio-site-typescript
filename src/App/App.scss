@@ -2,6 +2,27 @@
 
 .App {
   text-align: center;
+	font-family: Roboto;
+}
+
+.black {
+	color: $black;
+}
+
+.lighterGray {
+	color: $lighter-gray;
+}
+
+.gray {
+	color: $gray;
+}
+
+.lightGray {
+	color: $light-gray;
+}
+
+.accent {
+	color: $accent;
 }
 
 .App-logo {
@@ -16,7 +37,6 @@
 }
 
 .App-header {
-  background-color: $favColor;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
