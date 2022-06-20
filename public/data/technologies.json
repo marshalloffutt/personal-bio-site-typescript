@@ -1,0 +1,84 @@
+{
+  "technologies": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "class": "devicon-html5-plain"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "class": "devicon-css3-plain"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "class": "devicon-javascript-plain"
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "class": "devicon-react-original"
+    },
+    {
+      "id": 5,
+      "name": "TypeScript",
+      "class": "devicon-html5-plain"
+    },
+    {
+      "id": 6,
+      "name": "Sass",
+      "class": "devicon-sass-original"
+    },
+    {
+      "id": 7,
+      "name": "C#",
+      "class": "devicon-csharp-plain"
+    },
+    {
+      "id": 8,
+      "name": ".NET Core",
+      "class": "devicon-dotnetcore-plain"
+    },
+    {
+      "id": 9,
+      "name": "Git",
+      "class": "devicon-git-plain"
+    },
+    {
+      "id": 10,
+      "name": "Github",
+      "class": "devicon-github-original"
+    },
+    {
+      "id": 11,
+      "name": "Bootstrap",
+      "class": "devicon-bootstrap-plain"
+    },
+    {
+      "id": 12,
+      "name": "Material UI",
+      "class": "devicon-materialui-plain"
+    },
+    {
+      "id": 13,
+      "name": "Visual Studio",
+      "class": "devicon-visualstudio-plain"
+    },
+    {
+      "id": 14,
+      "name": "VS Code",
+      "class": "devicon-vscode-plain"
+    },
+    {
+      "id": 15,
+      "name": "Firebase",
+      "class": "devicon-firebase-plain"
+    },
+    {
+      "id": 16,
+      "name": "NPM",
+      "class": "devicon-npm-original-wordmark"
+    }
+  ]
+}
