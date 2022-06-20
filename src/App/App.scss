@@ -1,7 +1,10 @@
 @import "../styles/variables";
 
+.App {
+  background-color: $white;
+}
+
 .content {
-  text-align: center;
   font-family: Roboto;
 }
 
@@ -21,6 +24,10 @@
   color: $light-gray;
 }
 
-.accent {
-  color: $accent;
+.red {
+  color: $red;
+}
+
+.green {
+  color: $green;
 }
