@@ -23,7 +23,7 @@ interface Props {
 }
 
 const drawerWidth = 240;
-const navItems = ["Home", "About", "Projects", "Contact"];
+const navItems = ["Home", "Technologies", "Projects", "Contact"];
 
 export default function Navbar(props: Props) {
   const { window } = props;
