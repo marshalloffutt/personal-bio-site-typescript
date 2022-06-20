@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="content">
+        <h1>Placeholder</h1>
         <Home />
         <About />
         <Projects />
@@ -23,7 +24,6 @@ function App() {
         <h1 className="lighterGray">Lighter Gray</h1>
         <h1 className="red">Red</h1>
         <h1 className="green">Green</h1>
-        <Button variant="contained">I am a button</Button>
       </div>
       <Footer />
     </div>

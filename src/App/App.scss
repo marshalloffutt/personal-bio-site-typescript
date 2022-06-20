@@ -1,7 +1,10 @@
 @import "../styles/variables";
 
+.App {
+  background-color: $white;
+}
+
 .content {
-  text-align: center;
   font-family: Roboto;
 }
 
