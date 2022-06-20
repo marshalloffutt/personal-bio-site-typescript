@@ -30,12 +30,21 @@ export default function Technologies() {
   }, []);
 
   return (
-    <div>
-      {data &&
-        data.length > 0 &&
-        data.map((technology: technology) => (
-          <p key={technology.id}>{technology.name}</p>
-        ))}
+    <div className="technologies">
+      <h1>These are technologies that I use every day</h1>
+      <div className="technology-container">
+        {data &&
+          data.length > 0 &&
+          data.map((technology: technology) => (
+            <div
+              className="dev-icon"
+              key={technology.id}
+              title={technology.name}
+            >
+              <i className={technology.class}></i>
+            </div>
+          ))}
+      </div>
     </div>
   );
 }

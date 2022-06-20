@@ -56,7 +56,7 @@ export default function Navbar(props: Props) {
 
   return (
     <Box sx={{ display: "flex" }}>
-      <AppBar sx={{ bgcolor: "#080909" }} component="nav">
+      <AppBar sx={{ bgcolor: "#7fa480" }} component="nav">
         <Toolbar>
           <IconButton
             color="inherit"

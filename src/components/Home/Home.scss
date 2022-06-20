@@ -2,9 +2,10 @@
 
 .home-container {
   margin-top: 200px;
-  padding-bottom: 60px;
+  // padding-bottom: 60px;
   display: flex;
   justify-content: center;
+  height: 100vh;
 }
 
 .header-text {
@@ -45,7 +46,7 @@
   .introduction {
     text-align: center;
     font-size: 0.8rem;
-    max-width: 100%;
+    max-width: 80%;
   }
 
   .profile-picture {
