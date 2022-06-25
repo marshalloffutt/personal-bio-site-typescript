@@ -1,30 +1,33 @@
 import "./About.scss";
+import moment from "moment";
+import { EMPLOYER_NAME } from "../lib/constants";
 
-const ABOUT_ME_TEXT = `You might say that technology has always been an obsession of mine.
-Some of my fondest childhood memories were of playing old DOS games on our 486 personal
-computer. I was fortunate that when problems arose - and boy, did they! - I had my dad to help me
-troubleshoot through the issues. It was in those experiences that I learned how to tinker`;
+export default function About() {
+  let years: number = moment().diff("2019-07-01", "years");
 
-const ABOUT_ME_TEXT_OLD = `Some of my earliest childhood memories were of booting
-up the old 486 into GeoWorks, or making batch files in DOS to run my old
-favorite computer games. And while the games themselves were fun, it was in
-somehow getting those archaic pieces of software to work on our home setup
-where the true joy was found. It was just like solving a puzzle. That love
-for problem-solving is part of why I chose to go into an engineering-related
-field at LSU. There I studied Construction Management and ended up working
-for a full-service engineering firm as a project manager for their steel
-detailing team. After nearly a decade of structural steel detailing -
-and after managing over 100 projects - I decided I wanted to build in an
-environment with fewer limitations, where I would have more freedom in
-coming up with creative solutions to problems. So I chose to become a
-software developer at Nashville Software School, marrying two great passions
-of my life: building and technology.`;
+  const ABOUT_ME_TEXT_1: string = `Technology has always been an obsession of mine. As
+	someone who appreciates well-thought-out design, loves to build things, and has a
+	passion for	learning, it became obvious that software development was the perfect
+	career - and hobby - to induldge my curious nature and penchant for tinkering.`;
 
-export default function Contact() {
+  const ABOUT_ME_TEXT_2: string = `I am currently employed as a Software Engineer at
+	${EMPLOYER_NAME}. With over ${years} years of enterprise-level experience under my
+	belt, I can honestly say that I love what I do! Few things in life are more
+	satisfying than collaboration and teambuilding with a shared goal of building great
+	software.`;
+
+  const ABOUT_ME_TEXT_3: string = `Outside of work, I try to keep an active and healthy
+	lifestyle. I'm a lifelong dedicated runner who also loves hiking with my wife and dogs.
+	For fun I love to travel, scream until I'm hoarse at Nashville SC matches, or just
+	relax with some video games. I also make a point to budget personal time to keeping up
+	with trends in the IT field, learning new technologies and coding personal projects.`;
+
   return (
     <div className="about-me-container">
-      <h1 className="header-text">About me</h1>
-      <p className="text">{ABOUT_ME_TEXT}</p>
+      <h1 className="about-me-header-text">About me</h1>
+      <p className="about-me-text">{ABOUT_ME_TEXT_1}</p>
+      <p className="about-me-text">{ABOUT_ME_TEXT_2}</p>
+      <p className="about-me-text">{ABOUT_ME_TEXT_3}</p>
     </div>
   );
 }

@@ -1,12 +1,13 @@
 import Paper from "@mui/material/Paper";
 import photo from "../../assets/images/me.jpg";
 import "./Home.scss";
+import { EMPLOYER_NAME } from "../lib/constants";
 
-const HEADER_TEXT = "Marshall Offutt";
-const TITLE_TEXT = "Full-Stack Developer";
-const BLURB_TEXT = `Nashville-based software developer with a focus on ASP.NET
+const HEADER_TEXT: string = "Marshall Offutt";
+const TITLE_TEXT: string = "Full-Stack Developer";
+const BLURB_TEXT: string = `Nashville-based software developer with a focus on ASP.NET
 Core, and React. Passionate about continued education, and real-world problem
-solving. Currently working as a Software Engineer at Experian Health.`;
+solving. Currently working as a Software Engineer at ${EMPLOYER_NAME}`;
 
 export default function Home() {
   return (
