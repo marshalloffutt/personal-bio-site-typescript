@@ -24,7 +24,7 @@ export default function About() {
 
   return (
     <div className="about-me-container">
-      <h1 className="about-me-header-text">About me</h1>
+      <h1 className="about-me-header-text">About Me</h1>
       <p className="about-me-text">{ABOUT_ME_TEXT_1}</p>
       <p className="about-me-text">{ABOUT_ME_TEXT_2}</p>
       <p className="about-me-text">{ABOUT_ME_TEXT_3}</p>
