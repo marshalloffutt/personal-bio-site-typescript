@@ -1,1 +1,1 @@
-export const EMPLOYER: string = "Experian Health";
+export const EMPLOYER_NAME: string = "Experian Health";

@@ -31,7 +31,7 @@ export default function Technologies() {
 
   return (
     <div className="technologies">
-      <h1>These are technologies that I use every day</h1>
+      <h1>Technologies</h1>
       <div className="technology-container">
         {data &&
           data.length > 0 &&
