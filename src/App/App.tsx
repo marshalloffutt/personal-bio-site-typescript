@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Home from "../components/Home/Home";
+import About from "../components/About/About";
 import Technologies from "../components/Technologies/Technologies";
 import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact/Contact";
@@ -14,6 +15,7 @@ function App() {
       <div className="content">
         <h1>Placeholder</h1>
         <Home />
+				<About />
         <Technologies />
         <Projects />
         <Contact />
