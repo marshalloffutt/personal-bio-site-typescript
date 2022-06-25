@@ -1,1 +1,11 @@
 @import "../../styles/variables";
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  padding: 200px;
+}
+
+.about-me-header-text {
+  text-align: center;
+}
