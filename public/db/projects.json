@@ -5,35 +5,43 @@
       "name": "Muralville",
       "description": "Muralville, a murals finder app, is my love letter to the talented mural artists in Nashville, TN. This app allows users to find, add, and keep track of their favorite murals around the city. Built with React using a flat-data structure in Firebase. The Leaflet API was used for the map component and ESRI and Bing Maps for GeoSearch and Autosuggest capabilities. Modals and forms created using Reactstrap.",
       "technologies": "React, Axios, Firebase, JavaScript, SASS, Reactstrap, Leaflet",
-      "isActive": true
+      "isActive": true,
+      "githubUrl": "https://github.com/marshalloffutt/muralville",
+      "url": "https://muralville.firebaseapp.com/auth"
     },
     {
       "id": 2,
       "name": "Band Aid",
       "description": "Band Aid is my full-stack capstone at NSS. It is a networking platform to connect bands to talented musicians.",
       "technologies": "C#, ASP.NET Core, Dapper, React, Axios, Firebase, JavaScript, SASS, Reactstrap",
-      "isActive": true
+      "isActive": true,
+      "githubUrl": "https://github.com/marshalloffutt/band-aid"
     },
     {
       "id": 3,
       "name": "Magic E8 Ball",
       "description": "Magic E8 Ball is a recruiting tool for hiring managers looking to hire junior developers. This project grew out of my desire to get more experience with React, and to explore making shapes in pure CSS.",
       "technologies": "React, Axios, Firebase, JavaScript, SASS",
-      "isActive": true
+      "isActive": true,
+      "githubUrl": "https://github.com/marshalloffutt/magic-e8-ball",
+      "url": "https://magic-e8-ball.firebaseapp.com/"
     },
     {
       "id": 4,
       "name": "Skull & Daisy",
       "description": "Skull & Daisy is a storefront app built on ASP.NET Core using C#, Dapper, and Microsoft SQL Server for application scaffolding, database integration and management. My duties involved acting as Scrum Master implementing Agile development practices and providing the users and payment types models and API controllers using repository design pattern. On the front end, my primary contributions included writing authentication procedures using Firebase, implementing a seller dashboard to display sales history, and providing inventory management methods.",
       "technologies": "C#, ASP.NET Core, Dapper, React, Axios, Firebase, JavaScript, SASS, Reactstrap",
-      "isActive": true
+      "isActive": true,
+      "githubUrl": "https://github.com/skullanddaisy/SkullAndDaisy"
     },
     {
       "id": 5,
       "name": "The Runs",
       "description": "My take on a personal runs tracking tool. I wanted to track my own runs without the pop-ups and social media aspects of Strava.",
       "technologies": "C#, ASP.NET Core, MongoDB, React, Reactstap",
-      "isActive": false
+      "isActive": false,
+      "githubUrl": "https://github.com/skullanddaisy/SkullAndDaisy",
+      "url": "https://github.com/marshalloffutt/TheRuns"
     }
   ]
 }
