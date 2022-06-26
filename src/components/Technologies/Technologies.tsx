@@ -25,7 +25,7 @@ export default function Technologies() {
   }, []);
 
   return (
-    <div className="technologies">
+    <div className="technologies" id="Technologies">
       <h1>Technologies</h1>
       <div className="technologies-container">
         {data &&

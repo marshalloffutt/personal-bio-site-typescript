@@ -3,7 +3,6 @@
 .technologies {
   padding-top: 100px;
   text-align: center;
-  height: 70vh;
 }
 
 .technologies-container {
@@ -26,8 +25,13 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .technology-container {
-    padding-left: 80px;
-    padding-right: 80px;
+  .technologies-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+  }
+  .dev-icon {
+    text-align: center;
+    font-size: 3rem;
   }
 }

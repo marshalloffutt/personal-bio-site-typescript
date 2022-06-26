@@ -3,6 +3,7 @@
 .projects {
   padding-top: 100px;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .projects-container {
@@ -15,7 +16,6 @@
 
 @media only screen and (max-width: 1000px) {
   .projects-container {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 0px;
   }
 }
