@@ -11,7 +11,7 @@ export default function Technologies() {
   };
 
   const getTechnologies = () => {
-    fetch("data/technologies.json", {
+    fetch("db/technologies.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
