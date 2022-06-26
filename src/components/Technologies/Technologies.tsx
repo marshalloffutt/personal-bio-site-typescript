@@ -1,14 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { TechnologyDetails } from "../../lib/interfaces";
 import "./Technologies.scss";
 
 export default function Technologies() {
   const [data, setData] = useState([]);
-
-  type technology = {
-    id: number;
-    name: string;
-    class: string;
-  };
 
   const getTechnologies = () => {
     fetch("db/technologies.json", {
@@ -32,10 +27,10 @@ export default function Technologies() {
   return (
     <div className="technologies">
       <h1>Technologies</h1>
-      <div className="technology-container">
+      <div className="technologies-container">
         {data &&
           data.length > 0 &&
-          data.map((technology: technology) => (
+          data.map((technology: TechnologyDetails) => (
             <div
               className="dev-icon"
               key={technology.id}

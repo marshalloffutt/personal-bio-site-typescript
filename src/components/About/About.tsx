@@ -1,9 +1,9 @@
 import "./About.scss";
 import moment from "moment";
-import { EMPLOYER_NAME } from "../lib/constants";
+import { EMPLOYER_NAME } from "../../lib/constants";
 
 export default function About() {
-  let years: number = moment().diff("2019-07-01", "years");
+  let years: number = moment().diff("2019-08-01", "years");
 
   const ABOUT_ME_TEXT_1: string = `Technology has always been an obsession of mine. As
 	someone who appreciates well-thought-out design, loves to build things, and has a

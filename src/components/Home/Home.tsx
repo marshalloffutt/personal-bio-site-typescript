@@ -1,7 +1,7 @@
 import Paper from "@mui/material/Paper";
 import photo from "../../assets/images/me.jpg";
 import "./Home.scss";
-import { EMPLOYER_NAME } from "../lib/constants";
+import { EMPLOYER_NAME } from "../../lib/constants";
 
 const HEADER_TEXT: string = "Marshall Offutt";
 const TITLE_TEXT: string = "Full-Stack Developer";
@@ -21,7 +21,6 @@ export default function Home() {
         <Paper
           component="img"
           sx={{
-            // height: 350,
             width: 300,
             boxShadow: 10,
           }}
