@@ -7,32 +7,38 @@
       "technologies": "React, Axios, Firebase, JavaScript, SASS, Reactstrap, Leaflet",
       "isActive": true,
       "githubUrl": "https://github.com/marshalloffutt/muralville",
-      "url": "https://muralville.firebaseapp.com/auth"
+      "url": "https://muralville.firebaseapp.com/auth",
+      "imageUrl": "https://raw.githubusercontent.com/marshalloffutt/personal-bio-site-typescript/main/src/assets/images/muralville.png"
     },
     {
       "id": 2,
       "name": "Band Aid",
-      "description": "Band Aid is my full-stack capstone at NSS. It is a networking platform to connect bands to talented musicians.",
+      "description": "Band Aid was my full-stack capstone at NSS. It is a networking platform to connect bands to musicians, and allow them to setup practice and show events, and messaging.",
       "technologies": "C#, ASP.NET Core, Dapper, React, Axios, Firebase, JavaScript, SASS, Reactstrap",
       "isActive": true,
-      "githubUrl": "https://github.com/marshalloffutt/band-aid"
+      "githubUrl": "https://github.com/marshalloffutt/band-aid",
+      "url": "",
+      "imageUrl": "https://raw.githubusercontent.com/marshalloffutt/personal-bio-site-typescript/main/src/assets/images/bandaid.png"
     },
     {
       "id": 3,
       "name": "Magic E8 Ball",
-      "description": "Magic E8 Ball is a recruiting tool for hiring managers looking to hire junior developers. This project grew out of my desire to get more experience with React, and to explore making shapes in pure CSS.",
+      "description": "Magic E8 Ball is a recruiting tool for hiring managers looking to hire junior developers. This project grew out of my desire to get more experience with React, and to explore making shapes with raw CSS.",
       "technologies": "React, Axios, Firebase, JavaScript, SASS",
       "isActive": true,
       "githubUrl": "https://github.com/marshalloffutt/magic-e8-ball",
-      "url": "https://magic-e8-ball.firebaseapp.com/"
+      "url": "https://magic-e8-ball.firebaseapp.com/",
+      "imageUrl": "https://raw.githubusercontent.com/marshalloffutt/magic-e8-ball/master/src/images/snapshot2.png"
     },
     {
       "id": 4,
       "name": "Skull & Daisy",
-      "description": "Skull & Daisy is a storefront app built on ASP.NET Core using C#, Dapper, and Microsoft SQL Server for application scaffolding, database integration and management. My duties involved acting as Scrum Master implementing Agile development practices and providing the users and payment types models and API controllers using repository design pattern. On the front end, my primary contributions included writing authentication procedures using Firebase, implementing a seller dashboard to display sales history, and providing inventory management methods.",
+      "description": "Skull & Daisy is a storefront webapp built on ASP.NET Core using C#, Dapper, and Microsoft SQL Server for application scaffolding, database integration and management. My duties involved acting as Scrum Master implementing Agile development practices and providing the Users and PaymentType models and API controllers using repository design pattern. On the front end, my primary contributions included writing authentication procedures using Firebase, implementing a seller dashboard to display sales history, and providing inventory management methods.",
       "technologies": "C#, ASP.NET Core, Dapper, React, Axios, Firebase, JavaScript, SASS, Reactstrap",
       "isActive": true,
-      "githubUrl": "https://github.com/skullanddaisy/SkullAndDaisy"
+      "githubUrl": "https://github.com/skullanddaisy/SkullAndDaisy",
+      "url": "",
+      "imageUrl": "https://raw.githubusercontent.com/marshalloffutt/personal-bio-site-typescript/main/src/assets/images/skull-and-daisy.png"
     },
     {
       "id": 5,
@@ -40,8 +46,9 @@
       "description": "My take on a personal runs tracking tool. I wanted to track my own runs without the pop-ups and social media aspects of Strava.",
       "technologies": "C#, ASP.NET Core, MongoDB, React, Reactstap",
       "isActive": false,
-      "githubUrl": "https://github.com/skullanddaisy/SkullAndDaisy",
-      "url": "https://github.com/marshalloffutt/TheRuns"
+      "githubUrl": "",
+      "url": "",
+      "imageUrl": ""
     }
   ]
 }

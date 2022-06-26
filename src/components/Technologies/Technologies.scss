@@ -3,10 +3,10 @@
 .technologies {
   padding-top: 100px;
   text-align: center;
-  // height: 100vh;
+  height: 70vh;
 }
 
-.technology-container {
+.technologies-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -26,10 +26,6 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  // .technologies {
-  //   padding-top: 40px;
-  // }
-
   .technology-container {
     padding-left: 80px;
     padding-right: 80px;
