@@ -2,8 +2,17 @@
 
 .footer {
   color: $light-gray;
-  position: fixed;
   bottom: 0;
   text-align: center;
   width: 100%;
+  font-family: ml;
+}
+
+.icon {
+  color: $green;
+  padding: 10px;
+}
+
+.icon:hover {
+  color: $red;
 }

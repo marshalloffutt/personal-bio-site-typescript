@@ -33,7 +33,7 @@
     {
       "id": 4,
       "name": "Skull & Daisy",
-      "description": "Skull & Daisy is a storefront webapp built on ASP.NET Core using C#, Dapper, and Microsoft SQL Server for application scaffolding, database integration and management. My duties involved acting as Scrum Master implementing Agile development practices and providing the Users and PaymentType models and API controllers using repository design pattern. On the front end, my primary contributions included writing authentication procedures using Firebase, implementing a seller dashboard to display sales history, and providing inventory management methods.",
+      "description": "Skull & Daisy - a group project as NSS - is a storefront webapp. My duties involved acting as Scrum Master and providing the Users and PaymentType models and API controllers using repository design pattern. On the front end, my primary contributions included writing authentication procedures using Firebase, implementing a seller dashboard to display sales history, and providing inventory management methods.",
       "technologies": "C#, ASP.NET Core, Dapper, React, Axios, Firebase, JavaScript, SASS, Reactstrap",
       "isActive": true,
       "githubUrl": "https://github.com/skullanddaisy/SkullAndDaisy",

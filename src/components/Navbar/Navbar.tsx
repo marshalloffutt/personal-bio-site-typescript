@@ -23,7 +23,12 @@ interface Props {
 }
 
 const drawerWidth = 240;
-const navItems = ["Home", "Biography", "Resume"];
+const navItems = [
+  { id: 1, url: "#Home", title: "Home" },
+  { id: 2, url: "#AboutMe", title: "About Me" },
+  { id: 3, url: "#Technologies", title: "Technologies" },
+  { id: 4, url: "#Projects", title: "Projects" },
+];
 
 export default function Navbar(props: Props) {
   const { window } = props;
@@ -41,9 +46,9 @@ export default function Navbar(props: Props) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
+          <ListItem key={item.id} disablePadding>
+            <ListItemButton sx={{ textAlign: "center" }} href={item.url}>
+              <ListItemText primary={item.title} />
             </ListItemButton>
           </ListItem>
         ))}
@@ -76,8 +81,8 @@ export default function Navbar(props: Props) {
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff" }}>
-                {item}
+              <Button key={item.id} sx={{ color: "#fff" }} href={item.url}>
+                {item.title}
               </Button>
             ))}
           </Box>

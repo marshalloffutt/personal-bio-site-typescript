@@ -23,7 +23,7 @@ export default function About() {
 	with trends in the IT field, learning new technologies and coding personal projects.`;
 
   return (
-    <div className="about-me-container">
+    <div className="about-me-container" id="AboutMe">
       <h1 className="about-me-header-text">About Me</h1>
       <p className="about-me-text">{ABOUT_ME_TEXT_1}</p>
       <p className="about-me-text">{ABOUT_ME_TEXT_2}</p>
