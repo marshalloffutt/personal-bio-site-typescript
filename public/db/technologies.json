@@ -47,7 +47,7 @@
     },
     {
       "id": 10,
-      "name": "Github",
+      "name": "GitHub",
       "class": "devicon-github-original"
     },
     {
@@ -79,6 +79,16 @@
       "id": 16,
       "name": "NPM",
       "class": "devicon-npm-original-wordmark"
+    },
+    {
+      "id": 17,
+      "name": "Redux",
+      "class": "devicon-redux-original"
+    },
+    {
+      "id": 18,
+      "name": "SQL Server",
+      "class": "devicon-microsoftsqlserver-plain"
     }
   ]
 }
