@@ -21,7 +21,11 @@
 
 .dev-icon:hover {
   color: $red;
-  cursor: pointer;
+}
+
+.tech-name {
+  margin-top: -7px;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 1000px) {

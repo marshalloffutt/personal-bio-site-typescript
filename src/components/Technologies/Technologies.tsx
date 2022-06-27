@@ -37,6 +37,7 @@ export default function Technologies() {
               title={technology.name}
             >
               <i className={technology.class}></i>
+              <p className="tech-name">{technology.name}</p>
             </div>
           ))}
       </div>

@@ -28,7 +28,7 @@ export default function ProjectCard(project: any) {
       </CardContent>
       <CardActions className="card-links">
         <Button target="_blank" href={project.data.githubUrl} size="small">
-          View on Github
+          View on GitHub
         </Button>
         {project.data.url && (
           <Button target="_blank" href={project.data.url} size="small">
