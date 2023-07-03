@@ -89,6 +89,36 @@
       "id": 18,
       "name": "SQL Server",
       "class": "devicon-microsoftsqlserver-plain"
+    },
+    {
+      "id": 19,
+      "name": "NestJS",
+      "class": "devicon-nestjs-plain"
+    },
+    {
+      "id": 20,
+      "name": "Docker",
+      "class": "devicon-docker-plain"
+    },
+    {
+      "id": 21,
+      "name": "Gulp",
+      "class": "devicon-gulp-plain"
+    },
+    {
+      "id": 22,
+      "name": "MySQL",
+      "class": "devicon-mysql-plain"
+    },
+    {
+      "id": 23,
+      "name": "PostgreSQL",
+      "class": "devicon-postgresql-plain"
+    },
+    {
+      "id": 24,
+      "name": "Redux",
+      "class": "devicon-redux-original"
     }
   ]
 }

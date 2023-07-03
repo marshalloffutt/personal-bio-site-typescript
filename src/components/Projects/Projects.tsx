@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from "react";
-import { ProjectDetails } from "../../lib/interfaces";
-import { ProjectType } from "../../lib/types";
-import ProjectCard from "./ProjectCard/ProjectCard";
-import "./Projects.scss";
+import React, { useEffect, useState } from 'react';
+import { ProjectDetails } from '../../lib/interfaces';
+import { ProjectType } from '../../lib/types';
+import ProjectCard from './ProjectCard/ProjectCard';
+import './Projects.scss';
 
 export default function Projects() {
   const [data, setData] = useState([]);
 
   const getProjects = () => {
-    fetch("db/projects.json", {
+    fetch('db/projects.json', {
       headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
       },
     })
       .then(function (response) {
