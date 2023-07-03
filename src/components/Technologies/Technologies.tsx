@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from "react";
-import { TechnologyDetails } from "../../lib/interfaces";
-import "./Technologies.scss";
+import React, { useEffect, useState } from 'react';
+import { TechnologyDetails } from '../../lib/interfaces';
+import './Technologies.scss';
 
 export default function Technologies() {
   const [data, setData] = useState([]);
 
   const getTechnologies = () => {
-    fetch("db/technologies.json", {
+    fetch('db/technologies.json', {
       headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
       },
     })
       .then(function (response) {
